@@ -1,0 +1,6 @@
+<!-- Form to send the TimeSpan value to trending#index method -->
+<%= form_tag("/trending", method: "get") do %>
+  <%= label_tag(:time_span, "Choose Time Span (in mins):") %>
+  <%= text_field_tag(:time_span) %>
+  <%= submit_tag("Submit") %>
+<% end %>

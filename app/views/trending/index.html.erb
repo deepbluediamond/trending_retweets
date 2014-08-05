@@ -1,0 +1,15 @@
+<div ng-app="trending">
+	<div id="trending" class="container trending" ng-controller="TrendingCtrl" ng-init="init()">
+		<div class="tweet-time title">Create At</div> 
+		<div class="tweet-count title">Retweet Count</div> 
+		<div class="tweet-text title">Tweet</div> 
+		<br><br><hr>
+		<div ng-repeat="tweet in eventData.tweet_data" class="trending-container">
+			<div class="tweet-time">{{tweet.created_at}}</div> 
+			<div class="tweet-count">{{tweet.tweet_count}}</div> 
+			<div class="tweet-text">{{tweet.text}}</div>
+			<br><br><hr>
+		</div>
+	</div>
+</div>
+
