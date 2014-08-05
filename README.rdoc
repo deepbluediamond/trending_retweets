@@ -8,12 +8,12 @@ To Execute:
 Setting Twitter API OAuth Credentials as Environment Variables:
 * Edit ~/.bashrc (or which ever terminal app you are using, it's config)
 * And add following:
-** export API_KEY='xxx'
-** export API_SECRET='xxx'
-** export ACCESS_TOKEN='243xx47-xxxx'
-** export ACCESS_TOKEN_SECRET='xxx'
-** export PG_UNAME='xxx'
-** export PG_PASSWD='yyy'
+  * export API_KEY='xxx'
+  * export API_SECRET='xxx'
+  * export ACCESS_TOKEN='243xx47-xxxx'
+  * export ACCESS_TOKEN_SECRET='xxx'
+  * export PG_UNAME='xxx'
+  * export PG_PASSWD='yyy'
 * Open a new terminal window or reload your config.
 
 This README would normally document whatever steps are necessary to get the
